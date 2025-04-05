@@ -68,22 +68,14 @@ cd your-laravel-project
 # 2. Install PHP Dependencies
 composer install
 
-# 3. Install Frontend Dependencies
-# If your project uses frontend dependencies (Vue.js, React, etc.), run:
-npm install
-
-# or
-
-yarn install
-
-# 4. Set Up Environment Configuration
+# 3. Set Up Environment Configuration
 # Copy the .env.example file to .env
 cp .env.example .env
 
 # Then, generate the application key
 php artisan key:generate
 
-# 5. Set Up the Database
+# 4. Set Up the Database
 # Configure the database in the .env file with your database credentials
 # Example:
 # DB_CONNECTION=mysql
@@ -99,32 +91,8 @@ php artisan migrate
 
 # 7. Seed the Database (Optional)
 # If you have seeders set up, you can seed the database with:
-php artisan db:seed
+php artisan translations:generate 100000
 
-
-
-
-
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
 
 ## Contributing
 
