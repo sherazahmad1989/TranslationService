@@ -85,26 +85,16 @@ php artisan key:generate
 # DB_USERNAME=your_username
 # DB_PASSWORD=your_password
 
-# 6. Run Migrations
+# 5. Run Migrations
 # If there are database migrations, run:
 php artisan migrate
 
-# 7. Seed the Database (Optional)
+# 6. Seed the Database (Optional)
 # If you have seeders set up, you can seed the database with:
 php artisan translations:generate 100000
 
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+# 7. Run Server
+php artisan serve
 
 ## License
 
